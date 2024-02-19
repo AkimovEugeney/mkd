@@ -1,0 +1,8 @@
+.question{
+    display: flex;
+    color: green;
+}
+
+.send{
+    display: none;
+}

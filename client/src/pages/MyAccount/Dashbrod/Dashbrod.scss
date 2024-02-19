@@ -1,0 +1,250 @@
+.is-layout__default_site-container {
+    padding-top: 3.0rem;
+}
+
+
+.pb-5 {
+    padding-bottom: 3rem!important;
+}
+.m-auto {
+    margin: auto!important;
+}
+.is-dheader {
+    background: url(./img/scarlet-sails.5a4027a.jpg) no-repeat;
+    background-position: 0 20%;
+    background-size: 100%;
+    border-radius: 10px;
+    height: 150px;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    width: 100%;
+}
+
+.is-dheader__mask {
+    background: linear-gradient(180deg,hsla(0,0%,100%,.75) 60%,hsla(0,0%,100%,0));
+    height: 150px;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.is-dheader__content {
+    height: calc(150px - 4rem);
+    padding: 2rem;
+    position: relative;
+    z-index: 3;
+}
+
+.is-text {
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    margin: 0;
+    -webkit-text-decoration: none!important;
+    text-decoration: none!important;
+    text-transform: none;
+    transition: all .3s;
+    padding: 10px;
+}
+
+.is-dheader__content .is-text {
+    color: #000!important;
+}
+
+.text-600 {
+    font-weight: 600!important;
+}
+
+.text-200 {
+    font-weight: 200!important;
+}
+
+.text-500 {
+    font-weight: 600!important;
+}
+.none {
+    display: none;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    width: 100%;
+}
+
+.is-my-offers__heading {
+    margin-bottom: 2rem!important;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0.75rem;
+    margin-top: 0.75rem;
+}
+
+.is-my-offers__heading_title {
+    align-items: center;
+    display: flex;
+    padding-left: 0;
+}
+
+.is-my-offers__heading_count {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1.5rem;
+}
+
+a {
+    color: #3658c7;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+}
+
+a {
+    background-color: transparent;
+}
+
+.col-md-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.is-my-offers__item_card_title {
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    filter: drop-shadow(0 4px 30px rgba(0,0,0,.1));
+    padding: 2rem;
+    position: relative;
+    z-index: 6;
+}
+
+
+
+.is-my-offers__item_card_bottom {
+    background-color: #f4f4f8;
+    border-radius: 0 0 10px 10px;
+    margin-top: -0.5rem!important;
+    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+    position: relative;
+    z-index: 5;
+}
+
+.col-md-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.d-flex {
+    display: flex!important;
+}
+
+.justify-content-end {
+    justify-content: flex-end!important;
+}
+
+.is-my-offers__item {
+    margin-bottom: 2rem!important;
+    max-width: 98%;
+    position: relative;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0.75rem;
+    margin-top: 0.75rem;
+}
+
+.mt-5 {
+    margin-top: 3rem!important;
+}
+
+.is-my-booking__heading_title {
+    align-items: center;
+    display: flex;
+    padding-left: 0;
+}
+
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.is-my-booking__heading_count {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1.5rem;
+}
+
+.is-my-booking__heading_count_link {
+    transition: color .3s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.is-my-booking__items {
+    margin-bottom: 2rem!important;
+    max-width: 98%;
+    position: relative;
+}
+
+.mb-3 {
+    margin-bottom: 1rem!important;
+}
+
+.is-my-booking__items_card_title {
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    filter: drop-shadow(0 4px 30px rgba(0,0,0,.1));
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    z-index: 6;
+    margin-right: 20px;
+
+}
+
+.is-my-booking__items_card_title img {
+    height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+    width: auto;
+}
+
+img {
+    border-style: none;
+}
+
+.is-my-booking__items_card_bottom {
+    background-color: #f4f4f8;
+    border-radius: 0 0 10px 10px;
+    padding: 10px;
+    margin-top: -0.5rem!important;
+    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+    position: relative;
+    z-index: 5;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-content-between {
+    justify-content: space-between!important;
+}
+
